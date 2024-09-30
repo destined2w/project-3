@@ -17,7 +17,6 @@ namespace practika3009
             Console.WriteLine("Объем куба: " + size);
             Console.WriteLine("Длина диагонали куба: " + length);
 
-
             Console.ReadKey();
         }
     }
