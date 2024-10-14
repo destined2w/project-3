@@ -11,12 +11,16 @@ namespace task04
         static void Main(string[] args)
         {
             Console.WriteLine("Введите x:");
-
             double x = double.Parse(Console.ReadLine());
-            double y = Math.Sqrt((2 * x + Math.Sin(Math.Abs(3 * x))) / 3.56);
-
+            double y = Value(x);
             Console.WriteLine("Результат: " + y);
             Console.ReadKey();
+
+            static double Value(double a)
+            {
+                return (Math.Sqrt((2 * a + Math.Sin(Math.Abs(3 * a))) / 3.56));
+            }
+            
         }
     }
 }

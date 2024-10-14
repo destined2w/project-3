@@ -8,6 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>task04</RootNamespace>
     <AssemblyName>task04</AssemblyName>
+	<LangVersion>8.0</LangVersion>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
