@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeStruct", "TimeStruct\TimeStruct.csproj", "{C75DEB36-1262-4331-BF93-80801E846F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeStruct.UnitTests", "TimeStruct.UnitTests\TimeStruct.UnitTests.csproj", "{907010BD-9793-4D57-939E-EBF1C416059C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C75DEB36-1262-4331-BF93-80801E846F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75DEB36-1262-4331-BF93-80801E846F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75DEB36-1262-4331-BF93-80801E846F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75DEB36-1262-4331-BF93-80801E846F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{907010BD-9793-4D57-939E-EBF1C416059C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907010BD-9793-4D57-939E-EBF1C416059C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907010BD-9793-4D57-939E-EBF1C416059C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907010BD-9793-4D57-939E-EBF1C416059C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14BD8410-CAA7-4C82-BF63-6B52E8CDD2A5}
+	EndGlobalSection
+EndGlobal
