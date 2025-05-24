@@ -47,6 +47,7 @@
     <Compile Include="Serial.cs" />
     <Compile Include="Show.cs" />
     <Compile Include="ShowPeriodicity.cs" />
+    <Compile Include="TvProgram.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

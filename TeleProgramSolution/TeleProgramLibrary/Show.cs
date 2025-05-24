@@ -2,13 +2,14 @@
 
 namespace TeleProgramLibrary
 {
-    public class Show
+    public class Show : IComparable<Show>
     {
         public string Title { get; set; }
         public string Host { get; set; }
         public string Description { get; set; }
         public readonly ShowPeriodicity Periodicity;
         public readonly DateTime AirTime;
+
 
         public Show(
             string title,
@@ -69,6 +70,11 @@ namespace TeleProgramLibrary
 
             info[1] = $"Периодичность: {periodicityStr}. Время выхода: {airTimeStr}.\nОписание: {Description}";
             return info;
+        }
+        public int CompareTo(Show other)
+        {
+            if (other == null) return 1;
+            return AirTime.CompareTo(other.AirTime);
         }
     }
 }
