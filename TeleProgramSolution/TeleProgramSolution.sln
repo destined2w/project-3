@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleProgramLibrary", "TeleProgramLibrary\TeleProgramLibrary.csproj", "{89BBBDA9-48AE-4AAA-9413-36321B902589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeleProgramLibrary.UnitTests", "TeleProgramLibrary.UnitTests\TeleProgramLibrary.UnitTests.csproj", "{AB433FED-0C81-4FE4-84AF-9C441E933864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89BBBDA9-48AE-4AAA-9413-36321B902589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BBBDA9-48AE-4AAA-9413-36321B902589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BBBDA9-48AE-4AAA-9413-36321B902589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BBBDA9-48AE-4AAA-9413-36321B902589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB433FED-0C81-4FE4-84AF-9C441E933864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB433FED-0C81-4FE4-84AF-9C441E933864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB433FED-0C81-4FE4-84AF-9C441E933864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB433FED-0C81-4FE4-84AF-9C441E933864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57D97B76-1AC1-4E25-998C-FECE7400531B}
+	EndGlobalSection
+EndGlobal
